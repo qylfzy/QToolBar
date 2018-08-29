@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 添加这一句， 即可改变toolbar menu 图标的颜色-->
+        <!--<item name="android:textColorSecondary">#ffffff</item>-->
+        <!--toolbar标题文字颜色-->
+        <!--<item name="android:textColorPrimary">@android:color/white</item>-->
+    </style>
+
+    <!--popupmenu 样式-->
+    <style name="ToolBarPopupThem" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <!--popupmenu背景颜色-->
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <!--让popumenu不覆盖toolbar-->
+        <item name="overlapAnchor">false</item>
+        <!-- 修改字体大小 -->
+        <item name="android:textSize">15sp</item>
+        <!-- 修改字体颜色 -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
